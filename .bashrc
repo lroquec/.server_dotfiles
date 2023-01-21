@@ -8,6 +8,8 @@ case $- in
       *) return;;
 esac
 
+export GIT_SSH_COMMAND="ssh -vvv -i ~/.ssh/github_key"
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
