@@ -10,6 +10,8 @@ export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM="$ZSH_CONFIG/custom"
 export DOTFILES="$HOME/.dotfiles"
 
+export GIT_SSH_COMMAND="ssh -vvv -i ~/.ssh/github_key"
+
 ZSH_THEME='kphoen'
 
 
@@ -48,5 +50,8 @@ ZSH_DISABLE_COMPFIX=true
 alias dotfiles='/usr/bin/git --git-dir=/home/laura/.dotfiles/ --work-tree=/home/laura'
 
 source $ZSH/oh-my-zsh.sh
+
+. /usr/share/autojump/autojump.sh
+
 neofetch
 
