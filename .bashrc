@@ -163,4 +163,4 @@ fi
 . /usr/share/autojump/autojump.sh
 
 neofetch
-alias dotfiles='/usr/bin/git --git-dir=/home/laura/.dotfiles/ --work-tree=/home/laura
+alias dotfiles='/usr/bin/git --git-dir=/home/laura/.dotfiles/ --work-tree=/home/laura'
